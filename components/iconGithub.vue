@@ -4,7 +4,7 @@
     width="32"
     height="32"
     fill="currentColor"
-    class="bi bi-github"
+    class="fill-black hover:fill-slate-800 dark:fill-white dark:hover:fill-slate-300"
     viewBox="0 0 16 16"
   >
     <path
@@ -12,9 +12,3 @@
     />
   </svg>
 </template>
-
-<style scoped>
-svg:hover {
-  fill: rgb(82 82 91);
-}
-</style>

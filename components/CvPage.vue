@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-zinc-900">
+  <div>
     <div class="container mx-auto">
       <div class="text-3xl font-sans flex justify-between flex-col sm:flex-row">
         <h1 class="p-4 pt-8 pb-6 dark:border-b-zinc-300 dark:text-zinc-300 font-bold">
@@ -31,13 +31,13 @@
             <div class="">
               <h2 class="pt-4 pb-4">
                 <template v-if="project.url">
-                  <a :href="project.url" class="underline flex items-center hover:text-zinc-600"><span>{{ project.title }}</span> <iconExternalLink /></a>
+                  <a :href="project.url" class="underline flex items-center hover:text-zinc-600 dark:text-zinc-300"><span>{{ project.title }}</span> <iconExternalLink /></a>
                 </template>
                 <template v-else>
-                  <span class="line-through">{{ project.title }}</span>
+                  <span class="line-through dark:text-zinc-300">{{ project.title }}</span>
                 </template>
               </h2>
-              <p v-html="project.text" />
+              <p class="dark:text-zinc-200" v-html="project.text" />
             </div>
           </div>
         </template>
@@ -48,6 +48,13 @@
 
 <script>
 export default {
+  head () {
+    return {
+      bodyAttrs: {
+        class: 'dark:bg-zinc-900'
+      }
+    }
+  },
   data () {
     return {
       projects: [
