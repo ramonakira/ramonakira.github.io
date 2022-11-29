@@ -5,7 +5,7 @@
         <h1 class="p-4 pt-8 pb-6 dark:border-b-zinc-300 dark:text-zinc-300 font-bold">
           Ramon de Jezus
         </h1>
-        <div class="p-4 sm:pt-8 pb-6 flex w-28 justify-between">
+        <div class="p-4 sm:pt-8 pb-6 flex w-40 justify-between">
           <a href="https://mastodon.social/@ramonakira" rel="me">
             <iconMastodon />
             <span class="sr-only">Mastodon</span>
