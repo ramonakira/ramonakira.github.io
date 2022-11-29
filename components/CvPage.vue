@@ -6,6 +6,11 @@
           Ramon de Jezus
         </h1>
         <div class="p-4 sm:pt-8 pb-6 flex w-28 justify-between">
+          <a href="https://mastodon.social/@ramonakira" rel="me">
+            <iconMastodon />
+            <span class="sr-only">Mastodon</span>
+          </a>
+
           <a href="https://github.com/ramonakira">
             <iconGithub />
             <span class="sr-only">Github</span>
