@@ -4,7 +4,7 @@
     width="12"
     height="12"
     fill="currentColor"
-    class="bi bi-box-arrow-up-right ml-1"
+    class="bi bi-box-arrow-up-right inline ml-2"
     viewBox="0 0 16 16"
   >
     <path
